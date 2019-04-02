@@ -1,0 +1,16 @@
+version: '3'
+services:
+  scraper01:
+    build: /Users/rkirby/repo/amazon-listings/
+    container_name: scraper01
+    environment:
+      - LISTING_FILE=ListingSet1.xlsx
+      - LISTING_DIR=/tmpproject/listing_files
+      - LISTING_OUTPUT_FILE=ListingOutputFile1.csv
+  scraper02:
+    build: /Users/rkirby/repo/amazon-listings/
+    container_name: scraper02
+    environment:
+      - LISTING_FILE=ListingSet2.xls
+      - LISTING_DIR=/tmpproject/listing_files
+      - LISTING_OUTPUT_FILE=ListingOutputFile2.csv
