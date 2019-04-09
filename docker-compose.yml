@@ -4,37 +4,37 @@ services:
     build: /root/repo/amazon-listings/
     container_name: scraper01
     environment:
-      - 1.xlsx
+      - INPUT_FULE=1.xlsx
   scraper02:
     build: /root/repo/amazon-listings/
     container_name: scraper02
     environment:
-      - 2.xlsx
+      - INPUT_FULE=2.xlsx
   scraper03:
     build: /root/repo/amazon-listings/
     container_name: scraper03
     environment:
-      - 3.xlsx
+      - INPUT_FULE=3.xlsx
   scraper04:
     build: /root/repo/amazon-listings/
     container_name: scraper04
     environment:
-      - 4.xlsx
+      - INPUT_FULE=4.xlsx
   scraper05:
     build: /root/repo/amazon-listings/
     container_name: scraper05
     environment:
-      - 5.xlsx
+      - INPUT_FULE=5.xlsx
   scraper06:
     build: /root/repo/amazon-listings/
     container_name: scraper06
     environment:
-      - 6.xlsx
+      - INPUT_FULE=6.xlsx
   scraper06:
     build: /root/repo/amazon-listings/
     container_name: scraper07
     environment:
-      - 7.xlsx
+      - INPUT_FULE=7.xlsx
 
 
 
