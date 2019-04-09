@@ -38,9 +38,3 @@ class SpacesService:
                                            'listing_files/output_files/{}'.format(os.path.basename(output_file)))
 
         return response
-
-
-if __name__ == '__main__':
-    service = SpacesService()
-    service.list_all_buckets()
-    service.download_listing_file()
