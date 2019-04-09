@@ -12,5 +12,6 @@ WORKDIR /tmpproject
 #ADD listing_files/NewListings.xls /tmpproject/listing_files
 COPY listing_files/ /tmpproject/listing_files/
 ADD listing-scraper.py /tmpproject/
+ADD spaces_service.py /tmpproject/
 
 CMD ["python3", "-u", "/tmpproject/listing-scraper.py"]
