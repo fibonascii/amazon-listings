@@ -4,7 +4,7 @@ import re
 import pandas
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
-from .spaces_service import SpacesService
+from spaces_service import SpacesService
 import datetime
 
 service = SpacesService()
