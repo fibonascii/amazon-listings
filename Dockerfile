@@ -2,7 +2,7 @@ FROM selenium/standalone-chrome
 
 RUN sudo apt-get update -y
 RUN sudo apt-get install -y python3-dev python3-pip
-RUN pip3 install xlrd pandas selenium
+RUN pip3 install xlrd pandas selenium boto3
 
 RUN sudo mkdir /tmpproject
 RUN sudo mkdir /tmpproject/listing_files
